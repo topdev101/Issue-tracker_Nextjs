@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { Button } from "@radix-ui/themes";
 
 const IssuesPage = () => {
   return (
     <div>
-      IssuesPage
+      <Button>New Issue</Button>
     </div>
-  )
-}
+  );
+};
 
-export default IssuesPage
+export default IssuesPage;
